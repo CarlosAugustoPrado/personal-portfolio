@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.scss";
-import photo from "./programming.jpg";
+import photo from "./programming.svg";
 
 const Hero = () => {
   return (
@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="container">
           <div className="titles-area">
             <h2>Olá, sou o</h2>
-            <h1>Carlos Augusto Prado</h1>
+            <h1>Carlos Augusto</h1>
             <p>
               Sou um desenvolvedor front-end / desenvolvedor full-stack <br />{" "}
               com foco em ReactJS. Entusiasta de novas tecnologias e apaixonado
