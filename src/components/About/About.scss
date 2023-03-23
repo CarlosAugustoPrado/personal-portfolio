@@ -1,5 +1,6 @@
 .s-about {
   padding-top: 10rem;
+  margin-bottom: 8rem;
   .container {
     .text {
       margin-bottom: 2rem;
@@ -40,14 +41,10 @@
       .card {
         width: 100%;
         max-width: 28rem;
-        background-color: #adadb4;
+        background-color: #7e7e80;
         height: 25rem;
         padding: 6rem 3rem 0 3rem;
         border-radius: 25px;
-        cursor: pointer;
-        .active {
-          background-color: red;
-        }
         .icon-card {
           width: 4rem;
           height: 4rem;
