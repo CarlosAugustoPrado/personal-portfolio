@@ -11,10 +11,10 @@ const Header = () => {
         <div className="links">
           <ul>
             <li>
-              <a href="#">Sobre</a>
+              <a href="#s-about">Sobre</a>
             </li>
             <li>
-              <a href="#">Projetos</a>
+              <a href="#s-projects">Projetos</a>
             </li>
             <li>
               <a href="#">Contato</a>

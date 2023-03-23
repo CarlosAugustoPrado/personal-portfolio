@@ -1,0 +1,105 @@
+.s-projects {
+  margin-top: 10rem;
+  .container {
+    .titles {
+      margin-bottom: 4rem;
+      h2 {
+        font-weight: 600;
+        font-size: 3.2rem;
+        line-height: 4.8rem;
+        color: #7562e0;
+        margin-bottom: 1rem;
+      }
+      p {
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        text-align: justify;
+      }
+    }
+    .card-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 4rem;
+      margin-bottom: 5rem;
+
+      .project-card {
+        background: #31313f;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        width: 100%;
+        height: 45rem;
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;
+        .project-image {
+          max-width: 33rem;
+          height: 20rem;
+          border: 2px solid #7562e0;
+          border-radius: 25px;
+          overflow: hidden;
+          margin-bottom: 2rem;
+          img {
+            width: 100%;
+            height: 20rem;
+            border-radius: 25px;
+          }
+        }
+        .project-info {
+          margin-bottom: 3rem;
+          h2 {
+            font-weight: 600;
+            font-size: 2.4rem;
+            line-height: 3.6rem;
+            color: #7562e0;
+            margin-bottom: 1rem;
+          }
+          p {
+            font-size: 1.8rem;
+            line-height: 2.7rem;
+          }
+        }
+        .project-buttons {
+          display: flex;
+          align-items: center;
+
+          a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 14.5rem;
+            border: 2px solid #7562e0;
+            border-radius: 8px;
+            height: 4.5rem;
+            color: white;
+            font-weight: 600;
+            font-size: 1.6rem;
+            line-height: 2.4rem;
+            transition: all 0.3s;
+            &:not(:last-child) {
+              margin-right: 3rem;
+            }
+            &:hover {
+              background-color: #7562e0;
+            }
+          }
+        }
+      }
+    }
+    .btn-loadmore {
+      width: 20rem;
+      height: 5rem;
+      margin-left: 50rem;
+      background-color: transparent;
+      border: 2px solid #7562e0;
+      margin-bottom: 5rem;
+      color: white;
+      border-radius: 8px;
+      font-size: 1.8rem;
+      transition: all 0.3s;
+      &:hover {
+        background-color: #7562e0;
+      }
+    }
+  }
+}

@@ -3,6 +3,7 @@ header {
   height: 12rem;
   display: flex;
   align-items: center;
+
   .container {
     display: flex;
     align-items: center;
@@ -26,6 +27,7 @@ header {
             color: white;
             font-size: 1.8rem;
             transition: all 0.3s;
+
             &:hover {
               color: #7562e0;
             }

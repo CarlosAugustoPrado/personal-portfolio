@@ -9,7 +9,7 @@ import nodejs from "./imagesAbout/nodejs.svg";
 
 const About = () => {
   return (
-    <section className="s-about">
+    <section className="s-about" id="s-about">
       <div className="container">
         <div className="text">
           <h2>Sobre mim:</h2>
@@ -36,7 +36,9 @@ const About = () => {
           </div>
           <div className="card">
             <img src={web} alt="" className="icon-card" />
-            <span>Web Development</span>
+            <span>
+              Web <br /> Development
+            </span>
           </div>
           <div className="card">
             <img src={reactjs} alt="" className="icon-card" />
