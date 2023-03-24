@@ -62,4 +62,69 @@
       }
     }
   }
+  @media (max-width: 1150px) {
+    .container {
+      .cards-area {
+        .card {
+          max-width: 26rem;
+        }
+      }
+    }
+  }
+  @media (max-width: 800px) {
+    padding-top: 7rem;
+    .container {
+      .text {
+        p {
+          font-size: 1.6rem;
+        }
+      }
+      .experience {
+        span {
+          font-size: 2rem;
+        }
+      }
+      .cards-area {
+        .card {
+          max-width: 18rem;
+          height: 23rem;
+          span {
+            font-size: 1.8rem;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    .container {
+      .cards-area {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        row-gap: 2rem;
+        .card {
+          max-width: 25rem;
+        }
+      }
+    }
+  }
+  @media (max-width: 400px) {
+    padding-top: 4rem;
+    margin-bottom: 5rem;
+    .container {
+      .experience {
+        text-align: center;
+        flex-direction: column;
+        h2 {
+          margin-right: 0;
+        }
+      }
+      .cards-area {
+        grid-template-columns: 1fr;
+        .card {
+          max-width: 20rem;
+        }
+      }
+    }
+  }
 }

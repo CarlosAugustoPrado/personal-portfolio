@@ -46,4 +46,25 @@
       }
     }
   }
+  @media (max-width: 400px) {
+    .container {
+      .icons {
+        margin-top: 4rem;
+        ul {
+          flex-direction: column;
+          li {
+            &:not(:last-child) {
+              margin-right: 0;
+              margin-bottom: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 400px) {
+  .s-black-tiles {
+    display: none;
+  }
 }

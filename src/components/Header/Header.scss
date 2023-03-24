@@ -3,7 +3,6 @@ header {
   height: 12rem;
   display: flex;
   align-items: center;
-
   .container {
     display: flex;
     align-items: center;
@@ -30,6 +29,56 @@ header {
 
             &:hover {
               color: #7562e0;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 800px) {
+    .container {
+      .name {
+        h1 {
+          font-size: 2.2rem;
+        }
+      }
+      .links {
+        ul {
+          li {
+            a {
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 600px) {
+    .container {
+      .links {
+        ul {
+          li {
+            &:not(:last-child) {
+              margin-right: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 400px) {
+    .container {
+      justify-content: center;
+      .name {
+        h1 {
+          display: none;
+        }
+      }
+      .links {
+        ul {
+          li {
+            &:not(:last-child) {
+              margin-right: 5rem;
             }
           }
         }
