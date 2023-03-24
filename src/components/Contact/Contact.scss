@@ -23,22 +23,24 @@
         display: flex;
         align-items: center;
         li {
+          display: flex;
+          align-items: center;
+          font-size: 1.6rem;
+          color: #949494;
           &:not(:last-child) {
             margin-right: 5rem;
           }
+          img {
+            width: 30px;
+            height: 30px;
+            &:first-child {
+              margin-right: 1rem;
+            }
+          }
           list-style: none;
           a {
-            color: #949494;
             display: flex;
             align-items: center;
-            font-size: 1.6rem;
-            img {
-              width: 30px;
-              height: 30px;
-              &:first-child {
-                margin-right: 1rem;
-              }
-            }
           }
         }
       }

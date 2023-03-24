@@ -45,6 +45,11 @@
         height: 25rem;
         padding: 6rem 3rem 0 3rem;
         border-radius: 25px;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover {
+          transform: scale(1.05);
+        }
         .icon-card {
           width: 4rem;
           height: 4rem;

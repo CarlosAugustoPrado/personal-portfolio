@@ -10,8 +10,10 @@
     .skillCard-area {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 8.3rem;
+      row-gap: 4rem;
       .skillCard {
-        border: 1px solid #7e7e80;
+        border: 3px solid #7e7e80;
         border-radius: 8px;
         width: 35rem;
         margin-bottom: 2rem;

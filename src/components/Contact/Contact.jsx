@@ -21,10 +21,8 @@ const Contact = () => {
           <div className="icons">
             <ul>
               <li>
-                <a href="" target="_blank">
-                  <img src={mail} alt="" />
-                  <span>devcarlosaugustoprado@gmail.com</span>
-                </a>
+                <img src={mail} alt="" />
+                <span>devcarlosaugustoprado@gmail.com</span>
               </li>
               <li>
                 <a href="https://github.com/CarlosAugustoPrado" target="_blank">

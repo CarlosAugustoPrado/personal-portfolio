@@ -51,6 +51,15 @@ const ProjectsArea = () => {
       link1: "https://god-of-war-ragnarok-bice.vercel.app",
       link2: "https://github.com/CarlosAugustoPrado/God-of-War-Ragnarok",
     },
+    {
+      id: 6,
+      name: "God of War: Ragnarök",
+      image: gowImage,
+      description:
+        "Criação de uma landing page para o lançamento do novo God of War",
+      link1: "https://god-of-war-ragnarok-bice.vercel.app",
+      link2: "https://github.com/CarlosAugustoPrado/God-of-War-Ragnarok",
+    },
   ]);
   const [loadedProjects, setLoadedProjects] = useState(3);
   const loadMoreProjects = () => {
