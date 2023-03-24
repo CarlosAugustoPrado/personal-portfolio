@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import nttdataImage from "./ProjectsImages/nttData.png";
+import nttdataImage from "./ProjectsImages/nttata.png";
 import smartBusinessImage from "./ProjectsImages/smart-business.png";
 import whatIfImage from "./ProjectsImages/what-if.png";
 import pokemonImage from "./ProjectsImages/pokemon.png";
