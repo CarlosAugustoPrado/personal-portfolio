@@ -16,7 +16,7 @@ const Contact = () => {
             <h2>
               Entre em <strong>contato</strong>
             </h2>
-            <span>para podermos conversar melhor sobre seu projeto</span>
+            <span>para podermos conversar melhor</span>
           </div>
           <div className="icons">
             <ul>
