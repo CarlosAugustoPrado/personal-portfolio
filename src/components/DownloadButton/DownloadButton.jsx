@@ -3,7 +3,7 @@ import "./DownloadButton.scss";
 
 const DownloadButton = () => {
   return (
-    <a href=".././public/CarlosAugustoPradoCV.pdf" download>
+    <a href="../CarlosAugustoPradoCV.pdf" download>
       <button className="btn-downloadCV">Download CV</button>
     </a>
   );
