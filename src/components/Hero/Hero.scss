@@ -52,9 +52,12 @@
       justify-content: center;
       align-items: center;
       .titles-area {
-        padding: 8rem 0 0 0;
+        padding: 20rem 0 0 0;
         text-align: center;
         max-width: 55rem;
+        span {
+          font-size: 3.5rem;
+        }
       }
       .image-area {
         margin-top: 5rem;
@@ -62,8 +65,10 @@
     }
   }
   @media (max-width: 400px) {
+    height: 41rem;
     .container {
       .titles-area {
+        width: unset;
         padding: 5rem 0 0 0;
         h1 {
           font-size: 4.2rem;
@@ -74,6 +79,12 @@
         p {
           font-size: 1.6rem;
         }
+        span {
+          font-size: 1.8rem;
+        }
+      }
+      .image-area {
+        display: none;
       }
     }
   }

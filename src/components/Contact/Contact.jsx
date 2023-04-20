@@ -9,8 +9,8 @@ import linkedin from "./ContactImages/linkedin.svg";
 const Contact = () => {
   return (
     <>
-      <section className="black-tiles"></section>
       <section className="s-contact" id="s-contact">
+        <section className="black-tiles"></section>
         <div className="container">
           <div className="titles">
             <h2>
